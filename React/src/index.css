@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+.todo {
+  display: block;
+  padding-bottom: 10px;
+}
+
+ .todoDelete{
+  display:flex;
+  float: right;
+}
+
+body {
+  background-image: url("pexels-pixabay-531321.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+	margin: 0;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.todoInput{
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid rgb(175, 175, 184);
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.todoInput:focus{
+  border-bottom-color: blue;
+  transition: 600ms ease-out;
+}
+
+.Title{
+  color: rgb(9, 2, 27);
+ font-family: 'Poppins', sans-serif;
+ font-size: 2.2rem;
+ font-style: italic;
+ padding: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+  background: rgb(231,42,66);
+background: radial-gradient(circle, rgb(75, 233, 75) 0%, rgba(77,140,215,1) 100%);
+border-radius: 6px;
+box-shadow: 0 0 16px rgba(0, 0, 0, 0.30);
+}
+
+.Title:hover{
+    transform: scale(1.1);
+    transition: 300ms ease-in;
+}
+
+.todoInput:focus {
+  border-bottom-color: #0000ff;
+}
+
+.todoDelete {
+  background-color: none;
+  border: none;
+  margin-left: 100px;
+  color: #cc0000;
+  border-radius: 10px;
+}
+
